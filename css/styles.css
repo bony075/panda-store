@@ -1,0 +1,20 @@
+.bg-secondary-color {
+    background-color: #feeae9;
+}
+
+.primary-colorr {
+
+    color: #ff136f;
+}
+.btn-color{
+    background-image: linear-gradient(#ff1d74, #ff136f);
+}
+.w-bg-color{
+    background-color: #ffa500;
+}
+.b-bg-color{
+    background-color: #da70d6;
+}
+.s-bg-color{
+    background-color: #0000ff;
+}
