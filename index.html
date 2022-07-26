@@ -13,9 +13,9 @@
 
 <body>
     <header class="container">
-        <section>
-            <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid">
+        <section >
+            <nav class="fixed-top navbar navbar-expand-lg bg-light">
+                <div class="container">
                     <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -28,13 +28,13 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Shoes</a>
+                                <a class="nav-link" href="#Shoes">Shoes</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Bag</a>
+                                <a class="nav-link" href="#Bag">Bag</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Subscribe</a>
+                                <a class="nav-link" href="#Subs">Subscribe</a>
                             </li>
                         </ul>
                     </div>
@@ -42,7 +42,7 @@
             </nav>
             <!-- slider -->
         </section>
-        <section class="mt-5">
+        <section class="my-5">
             <div id="carouselExampleControls" class="carousel slide bg-secondary-color rounded-4"
                 data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -156,7 +156,7 @@
         </section>
     </header>
     <main>
-        <section class="container my-5">
+        <section class="container my-5" id="Shoes">
             <h1>Shoes</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4 my-2 ">
                 <div class="col">
@@ -208,7 +208,7 @@
             </div>
         </section>
         <!-- bag section  -->
-        <section class="container my-5 ">
+        <section class="container my-5 " id="Bag">
             <h1>Bag</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4 my-2 ">
                 <div class="col">
@@ -260,7 +260,51 @@
             </div>
         </section>
     </main>
+    <footer class="text-center text-lg-start " id="Subs">
+        <!-- Grid container -->
+        <div class="rounded-3 container py-5 bg-secondary-color my-3">
+            <form action="">
+                <!--Grid row-->
+                <div class="row py-5">
+                    <!--Grid column-->
+                    <div class="col-auto mb-4 mb-md-0">
+                        <p class="pt-2">
+                            <strong>Sign up for our newsletter</strong>
+                        </p>
+                    </div>
+                    <!--Grid column-->
 
+                    <!--Grid column-->
+                    <div class="col-md-5 col-12 mb-4 mb-md-0">
+                        <!-- Email input -->
+                        <div class="form-outline mb-4">
+                            <input type="email" id="form5Example25" class="form-control" />
+                            <label class="form-label" for="form5Example25">Email address</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-auto mb-4 mb-md-0">
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-color mb-4 text-white fw-bold">
+                            Subscribe
+                        </button>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </form>
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-dark text-decoration-none" href="#">All rights reserved. Bony, Bangladesh.</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
 
 
 
